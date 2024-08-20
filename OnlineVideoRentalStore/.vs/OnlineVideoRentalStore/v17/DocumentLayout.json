@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\onlinevideorentalstore\\onlinevideorentalstore\\models\\dtomodels\\moviealldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|solutionrelative:onlinevideorentalstore\\models\\dtomodels\\moviealldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\onlinevideorentalstore\\onlinevideorentalstore\\models\\enteties\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|solutionrelative:onlinevideorentalstore\\models\\enteties\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\onlinevideorentalstore\\onlinevideorentalstore\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|solutionrelative:onlinevideorentalstore\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\onlinevideorentalstore\\onlinevideorentalstore\\services\\movieservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|solutionrelative:onlinevideorentalstore\\services\\movieservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\onlinevideorentalstore\\onlinevideorentalstore\\database\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|solutionrelative:onlinevideorentalstore\\database\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\onlinevideorentalstore\\onlinevideorentalstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|solutionrelative:onlinevideorentalstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\onlinevideorentalstore\\onlinevideorentalstore\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3193C7CC-84DC-4FE0-93C7-93E7CCC59F48}|OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj|solutionrelative:onlinevideorentalstore\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "OnlineVideoRentalStore\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "OnlineVideoRentalStore\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T10:18:15.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "OnlineVideoRentalStore\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "OnlineVideoRentalStore\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:55:50.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieServices.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Services\\MovieServices.cs",
+              "RelativeDocumentMoniker": "OnlineVideoRentalStore\\Services\\MovieServices.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Services\\MovieServices.cs",
+              "RelativeToolTip": "OnlineVideoRentalStore\\Services\\MovieServices.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:55:21.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InMemoryDb.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\DataBase\\InMemoryDb.cs",
+              "RelativeDocumentMoniker": "OnlineVideoRentalStore\\DataBase\\InMemoryDb.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\DataBase\\InMemoryDb.cs",
+              "RelativeToolTip": "OnlineVideoRentalStore\\DataBase\\InMemoryDb.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:53:03.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OnlineVideoRentalStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OnlineVideoRentalStore\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:50:20.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieAllDto.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Models\\DtoModels\\MovieAllDto.cs",
+              "RelativeDocumentMoniker": "OnlineVideoRentalStore\\Models\\DtoModels\\MovieAllDto.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Models\\DtoModels\\MovieAllDto.cs",
+              "RelativeToolTip": "OnlineVideoRentalStore\\Models\\DtoModels\\MovieAllDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:54:16.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Models\\Enteties\\Movie.cs",
+              "RelativeDocumentMoniker": "OnlineVideoRentalStore\\Models\\Enteties\\Movie.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\Models\\Enteties\\Movie.cs",
+              "RelativeToolTip": "OnlineVideoRentalStore\\Models\\Enteties\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:52:20.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
