@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\MyFirstWebApp\\MyFirstWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\MyFirstWebApp\\MyFirstWebApp.csproj",
       "projectName": "MyFirstWebApp",
-      "projectPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\MyFirstWebApp\\MyFirstWebApp.csproj",
+      "projectPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\MyFirstWebApp\\MyFirstWebApp.csproj",
       "packagesPath": "C:\\Users\\micad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\MyFirstWebApp\\obj\\",
+      "outputPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\MyFirstWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\micad\\AppData\\Roaming\\NuGet\\NuGet.Config",
