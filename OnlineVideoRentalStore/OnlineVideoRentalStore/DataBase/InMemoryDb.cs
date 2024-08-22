@@ -12,6 +12,13 @@ namespace OnlineVideoRentalStore.DataBase
             LoadMoviesDb();
         }
 
+        public static void Save(Movie entity)
+        {
+            var result = Movies.Single(m =>  m.Id == entity.Id);
+
+            result = entity;
+        }
+
         private static void LoadMoviesDb()
         {
 

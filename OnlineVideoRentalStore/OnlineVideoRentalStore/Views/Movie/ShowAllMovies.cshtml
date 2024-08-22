@@ -26,6 +26,7 @@
                 AgeRestriction
             </th>
             <th></th>
+           
         </tr>
     </thead>
     <tbody>
@@ -53,7 +54,9 @@
                 <td>
                     @item.AgeRestriction 
                 </td>
-              
+                <td>
+                    @Html.ActionLink("Edit", "EditMovie", "Movie", new {movieId = item.Id})
+                </td>
             </tr>
         }
     </tbody>

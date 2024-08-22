@@ -31,6 +31,7 @@ namespace OnlineVideoRentalStore.Controllers
         [HttpGet("create")]
         public ActionResult CreateMovie()
         {
+
             return View("CreateMovie");
         }
 
@@ -55,6 +56,39 @@ namespace OnlineVideoRentalStore.Controllers
             InMemoryDb.Movies.Add(entity);
 
            
+            return RedirectToAction("ShowAllMovies");
+        }
+        [HttpGet("edit")]
+        public IActionResult EditMovie(int movieId)
+        {
+            var entity = InMemoryDb.Movies.Single(m=> m.Id == movieId);
+
+            var viewModel = new CreateMovieVM()
+            {
+                Id = entity.Id,
+                Title = entity.Title,
+                Length = entity.Length,
+
+            };
+
+
+            return View(viewModel);
+        }
+        [HttpPost("edit")]
+        public IActionResult EditMovie(CreateMovieVM movieVM)
+        {
+            var entity = InMemoryDb.Movies.Single(m => m.Id == movieVM.Id);
+
+            entity.Title = movieVM.Title;
+            entity.Length = movieVM.Length;
+
+            InMemoryDb.Save(entity);
+
+
+
+         
+
+
             return RedirectToAction("ShowAllMovies");
         }
 
