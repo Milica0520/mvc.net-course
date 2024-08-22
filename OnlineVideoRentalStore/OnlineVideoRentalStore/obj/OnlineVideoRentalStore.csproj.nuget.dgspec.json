@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj": {}
+    "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj": {
+    "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj",
+        "projectUniqueName": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj",
         "projectName": "OnlineVideoRentalStore",
-        "projectPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj",
+        "projectPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\OnlineVideoRentalStore.csproj",
         "packagesPath": "C:\\Users\\micad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\obj\\",
+        "outputPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\OnlineVideoRentalStore\\OnlineVideoRentalStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,9 +1,10 @@
-﻿namespace OnlineVideoRentalStore.Models.Enteties
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace OnlineVideoRentalStore.Models.Enteties
 {
     public class Movie
     {
         public int Id { get; set; }
-
         public string Title { get; set; }
 
         public string Genre { get; set; }

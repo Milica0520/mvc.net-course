@@ -5,7 +5,7 @@ namespace OnlineVideoRentalStore.DataBase
     public static class InMemoryDb
     {
 
-        public static List<Movie> Movies = new List<Movie>(); 
+        public static List<Movie> Movies = new List<Movie>();
 
         static InMemoryDb()
         {
@@ -15,7 +15,7 @@ namespace OnlineVideoRentalStore.DataBase
         private static void LoadMoviesDb()
         {
 
-           Movies = new List<Movie>
+            Movies = new List<Movie>
         {
             new Movie
             {
@@ -82,5 +82,5 @@ namespace OnlineVideoRentalStore.DataBase
 
 
 
-}
+    }
 }
