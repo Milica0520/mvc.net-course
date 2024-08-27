@@ -47,7 +47,7 @@ namespace OnlineVideoRentalStore.Controllers
                 Length = viewModel.Length,
                 IsAvailable = viewModel.IsAvailable,
                 AgeRestriction = viewModel.AgeRestriction,
-                Quantity = viewModel.Quantity,  
+                Quantity = viewModel.Quantity,
                 ReleaseDate = viewModel.ReleaseDate,
 
 
@@ -55,10 +55,13 @@ namespace OnlineVideoRentalStore.Controllers
 
             InMemoryDb.Movies.Add(entity);
 
-           
+
             return RedirectToAction("ShowAllMovies");
         }
+
         [HttpGet("edit")]
+       
+
         public IActionResult EditMovie(int movieId)
         {
             var entity = InMemoryDb.Movies.Single(m=> m.Id == movieId);
@@ -68,29 +71,69 @@ namespace OnlineVideoRentalStore.Controllers
                 Id = entity.Id,
                 Title = entity.Title,
                 Length = entity.Length,
+                Genre = entity.Genre,
+                Language = entity.Language,
+                IsAvailable=entity.IsAvailable,
+                AgeRestriction = entity.AgeRestriction,
+                Quantity = entity.Quantity,
 
             };
-
-
             return View(viewModel);
         }
+
+
         [HttpPost("edit")]
+     
         public IActionResult EditMovie(CreateMovieVM movieVM)
         {
             var entity = InMemoryDb.Movies.Single(m => m.Id == movieVM.Id);
 
             entity.Title = movieVM.Title;
             entity.Length = movieVM.Length;
+            entity.Genre = movieVM.Genre;
+            entity.Language = movieVM.Language;
+            entity.IsAvailable = movieVM.IsAvailable;
+            entity.AgeRestriction = movieVM.AgeRestriction;
+            entity.Quantity = movieVM.Quantity;
+
 
             InMemoryDb.Save(entity);
+            return RedirectToAction("ShowAllMovies");
+        }
+        [HttpGet("delete")]
+
+        public IActionResult DeleteMovie(int movieId)
+        {
+            var entity = InMemoryDb.Movies.Single(m => m.Id == movieId);
+
+            var viewModel = new CreateMovieVM()
+            {
+                Id = entity.Id,
+                Title = entity.Title,
+                Length = entity.Length,
+                Genre = entity.Genre,
+                Language = entity.Language,
+                IsAvailable = entity.IsAvailable,
+                AgeRestriction = entity.AgeRestriction,
+                Quantity = entity.Quantity,
+
+            };
+            return View(viewModel);
+        }
 
 
+        [HttpPost("delete")]
+        public IActionResult DeleteMovie(CreateMovieVM movieVM)
+        {
+            var entity = InMemoryDb.Movies.Single(m => m.Id == movieVM.Id);
 
-         
-
+            InMemoryDb.Movies.Remove(entity);
 
             return RedirectToAction("ShowAllMovies");
         }
+
+
+
 
 
     }

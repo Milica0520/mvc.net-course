@@ -1,16 +1,16 @@
 ﻿@model OnlineVideoRentalStore.Models.ViewModels.CreateMovieVM
 
 @{
-    ViewData["Title"] = "EditMovie";
+    ViewData["Title"] = "DeleteMovie";
 }
 
 
 
-<h4>EditMovie</h4>
+<h4>DeleteMovie</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="EditMovie">
+        <form asp-action="DeleteMovie">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input asp-for="Id" type="hidden" class="form-control"/>
             <div class="form-group">
@@ -55,7 +55,7 @@
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Edit"  class="btn btn-primary" />
+                <input type="submit" value="Delete"  class="btn btn-primary" />
             </div>
 
         </form>
