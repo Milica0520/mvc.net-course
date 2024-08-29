@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\todowebapp\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\todowebapp\\services\\todoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\services\\todoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\demo\\todowebapp\\models\\dtomodels\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\models\\dtomodels\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\demo\\todowebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\demo\\todowebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\demo\\todowebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\demo\\todowebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\todowebapp\\database\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\database\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\demo\\todowebapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\demo\\todowebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|c:\\users\\micad\\onedrive\\desktop\\mvc.net-course\\demo\\todowebapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\todowebapp\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\todowebapp\\models\\enteties\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\models\\enteties\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\todowebapp\\models\\enteties\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\models\\enteties\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\todowebapp\\models\\enteties\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95AC12EB-1747-441F-81C9-DAC727DC72EF}|ToDoWebApp\\ToDoWebApp.csproj|solutionrelative:todowebapp\\models\\enteties\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ToDoWebApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T12:52:04.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ToDoWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T12:52:18.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ToDoWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T12:52:11.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InMemoryDb.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\DataBase\\InMemoryDb.cs",
+              "RelativeDocumentMoniker": "ToDoWebApp\\DataBase\\InMemoryDb.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\DataBase\\InMemoryDb.cs",
+              "RelativeToolTip": "ToDoWebApp\\DataBase\\InMemoryDb.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAD0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:31:56.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoServices.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Services\\TodoServices.cs",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Services\\TodoServices.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Services\\TodoServices.cs",
+              "RelativeToolTip": "ToDoWebApp\\Services\\TodoServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T11:11:04.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "ToDoWebApp\\Controllers\\ToDoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:47:41.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoDto.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\DtoModels\\ToDoDto.cs",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Models\\DtoModels\\ToDoDto.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\DtoModels\\ToDoDto.cs",
+              "RelativeToolTip": "ToDoWebApp\\Models\\DtoModels\\ToDoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:50:20.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ToDoWebApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T12:52:06.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ToDoWebApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T12:52:14.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ToDoWebApp\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T12:53:18.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ToDoWebApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:53:30.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\ToDo\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Views\\ToDo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Views\\ToDo\\Index.cshtml",
+              "RelativeToolTip": "ToDoWebApp\\Views\\ToDo\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T17:49:05.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\Enteties\\Status.cs",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Models\\Enteties\\Status.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\Enteties\\Status.cs",
+              "RelativeToolTip": "ToDoWebApp\\Models\\Enteties\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:25:52.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\Enteties\\Category.cs",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Models\\Enteties\\Category.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\Enteties\\Category.cs",
+              "RelativeToolTip": "ToDoWebApp\\Models\\Enteties\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:25:33.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ToDo.cs",
+              "DocumentMoniker": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\Enteties\\ToDo.cs",
+              "RelativeDocumentMoniker": "ToDoWebApp\\Models\\Enteties\\ToDo.cs",
+              "ToolTip": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\Models\\Enteties\\ToDo.cs",
+              "RelativeToolTip": "ToDoWebApp\\Models\\Enteties\\ToDo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:25:13.552Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
