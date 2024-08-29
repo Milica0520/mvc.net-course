@@ -11,7 +11,7 @@ namespace OnlineVideoRentalStore.Models.Enteties
 
         public string Language { get; set; }
 
-        public bool IsAvailable { get; set; }
+        public bool IsAvailable = true;
 
         public DateTime ReleaseDate { get; set; }
 
