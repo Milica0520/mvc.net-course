@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\ToDoWebApp.csproj": {}
+    "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\DEMO\\ToDoWebApp\\ToDoWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\ToDoWebApp.csproj": {
+    "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\DEMO\\ToDoWebApp\\ToDoWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\ToDoWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\DEMO\\ToDoWebApp\\ToDoWebApp.csproj",
         "projectName": "ToDoWebApp",
-        "projectPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\ToDoWebApp.csproj",
+        "projectPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\DEMO\\ToDoWebApp\\ToDoWebApp.csproj",
         "packagesPath": "C:\\Users\\micad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\DEMO\\ToDoWebApp\\obj\\",
+        "outputPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\DEMO\\ToDoWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micad\\AppData\\Roaming\\NuGet\\NuGet.Config",
