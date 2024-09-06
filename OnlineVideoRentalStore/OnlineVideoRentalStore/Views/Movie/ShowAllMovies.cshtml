@@ -1,4 +1,23 @@
 ﻿@model IEnumerable<OnlineVideoRentalStore.Models.DtoModels.MovieAllDto>
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["Message"]
+    </div>
+}
+@if (TempData["UserMessage"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["Message"]
+    </div>
+}
+@if (TempData["WellcomeMessage"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["Message"]
+    </div>
+}
+
 
 <h1>Movies: </h1>
 <table class="table">
@@ -16,6 +35,7 @@
             <th>
                 Language
             </th>
+      
             <th>
                 ReleaseDate
             </th>
@@ -25,6 +45,7 @@
             <th>
                 AgeRestriction
             </th>
+     
             <th></th>
            
         </tr>
@@ -45,6 +66,7 @@
                 <td>
                     @item.Language
                 </td>
+            
                 <td>
                     @item.ReleaseDate
                 </td>
@@ -54,13 +76,18 @@
                 <td>
                     @item.AgeRestriction 
                 </td>
-            
+                
+
                 <td>
                     @Html.ActionLink("Edit", "EditMovie", "Movie", new { movieId = item.Id })
                 </td>
                 <td>
                     @Html.ActionLink("Delete", "DeleteMovie", "Movie", new { movieId = item.Id })
                 </td>
+                <td>
+                    @Html.ActionLink("Details", "DetailsMovie", "Movie", new { movieId = item.Id })
+                </td>
+               
             </tr>
         }
     </tbody>

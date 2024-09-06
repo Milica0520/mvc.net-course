@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OnlineVideoRentalStore.DataBase;
 using OnlineVideoRentalStore.Models;
+using OnlineVideoRentalStore.Models.ViewModels;
 using System.Diagnostics;
 
 namespace OnlineVideoRentalStore.Controllers
@@ -28,5 +30,8 @@ namespace OnlineVideoRentalStore.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-    }
+
+  
+
+        }
 }

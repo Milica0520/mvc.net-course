@@ -38,25 +38,39 @@ namespace OnlineVideoRentalStore.Controllers
         [HttpPost("create")]
         public IActionResult CreateMovie(CreateMovieVM viewModel)
         {
-            var entity = new Movie()
+            var findMovie = InMemoryDb.Movies.FirstOrDefault(movie => movie.Title == viewModel.Title);
+
+            if(findMovie != null)
             {
-                Id = InMemoryDb.Movies.Count + 1,
-                Title = viewModel.Title,
-                Genre = viewModel.Genre,
-                Language = viewModel.Language,
-                Length = viewModel.Length,
-                IsAvailable = viewModel.IsAvailable,
-                AgeRestriction = viewModel.AgeRestriction,
-                Quantity = viewModel.Quantity,
-                ReleaseDate = viewModel.ReleaseDate,
+                TempData["Message"] = "Movie with this title already exists.";
+                return RedirectToAction("ShowAllMovies");
+
+            }
+            else
+            {
+
+                var entity = new Movie()
+                {
+                    Id = InMemoryDb.Movies.Count + 1,
+                    Title = viewModel.Title,
+                    Genre = viewModel.Genre,
+                    Language = viewModel.Language,
+                    Length = viewModel.Length,
+                    IsAvailable = viewModel.IsAvailable,
+                    AgeRestriction = viewModel.AgeRestriction,
+                    Quantity = viewModel.Quantity,
+                    ReleaseDate = viewModel.ReleaseDate,
 
 
-            };
+                };
 
-            InMemoryDb.Movies.Add(entity);
+                InMemoryDb.Movies.Add(entity);
 
+
+            }
 
             return RedirectToAction("ShowAllMovies");
+
         }
 
         [HttpGet("edit")]
