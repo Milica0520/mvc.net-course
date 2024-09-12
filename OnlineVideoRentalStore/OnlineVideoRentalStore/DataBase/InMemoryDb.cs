@@ -9,15 +9,27 @@ namespace OnlineVideoRentalStore.DataBase
 
         public static List<User> Users = new List<User>();
 
+        public static List<Rental> Rentals = new List<Rental>(); 
+  
         static InMemoryDb()
         {
             LoadMoviesDb();
             LoadUsersDb();
+            LoadRentals();
+        }
+
+        private static void LoadRentals()
+        {
+           Rentals = new List<Rental> {
+           
+           new Rental{ Id = 1, MovieId = 2, UserId = 3, RentedOn = new DateTime(2023, 1, 15), ReturnedOn= new DateTime().AddDays(14) }
+           
+           };
         }
 
         private static void LoadUsersDb()
         {
-            List<User> users = new List<User>
+             Users = new List<User>
             {
                 new User { Id = 1, UserName = "MarkoM25", Age = 25, CardNumber = "1234567890123456", CreatedOn = new DateTime(2023, 1, 15), IsSubscriptionExpired = false, SubscriptionType = "Monthly", Email = "markom25@example.com" },
                 new User { Id = 2, UserName = "AnaAni30", Age = 30, CardNumber = "2345678901234567", CreatedOn = new DateTime(2022, 5, 22), IsSubscriptionExpired = true, SubscriptionType = "Yearly", Email = "anaani30@example.com" },
@@ -36,23 +48,22 @@ namespace OnlineVideoRentalStore.DataBase
         public static void Save(Movie entity)
         {
             var result = Movies.Single(m => m.Id == entity.Id);
-
             result = entity;
         }
 
         public static void SaveUser(User entity)
         {
             var result = Users.Single(u => u.Id == entity.Id);
-
             result = entity;
         }
 
 
 
-        private static void LoadMoviesDb()
-        {
 
-            Movies = new List<Movie>
+        private static void LoadMoviesDb()
+    {
+
+        Movies = new List<Movie>
         {
             new Movie
             {
@@ -115,9 +126,9 @@ namespace OnlineVideoRentalStore.DataBase
                 Quantity = 6
             }
         };
-        }
-
-
-
     }
+
+
+
+}
 }

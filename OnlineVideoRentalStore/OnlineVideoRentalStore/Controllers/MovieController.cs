@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Mvc;
 using OnlineVideoRentalStore.DataBase;
+using OnlineVideoRentalStore.Models.DtoModels;
 using OnlineVideoRentalStore.Models.Enteties;
 using OnlineVideoRentalStore.Models.ViewModels;
 using OnlineVideoRentalStore.Services;
@@ -40,7 +42,7 @@ namespace OnlineVideoRentalStore.Controllers
         {
             var findMovie = InMemoryDb.Movies.FirstOrDefault(movie => movie.Title == viewModel.Title);
 
-            if(findMovie != null)
+            if (findMovie != null)
             {
                 TempData["Message"] = "Movie with this title already exists.";
                 return RedirectToAction("ShowAllMovies");
@@ -74,11 +76,11 @@ namespace OnlineVideoRentalStore.Controllers
         }
 
         [HttpGet("edit")]
-       
+
 
         public IActionResult EditMovie(int movieId)
         {
-            var entity = InMemoryDb.Movies.Single(m=> m.Id == movieId);
+            var entity = InMemoryDb.Movies.Single(m => m.Id == movieId);
 
             var viewModel = new CreateMovieVM()
             {
@@ -87,7 +89,7 @@ namespace OnlineVideoRentalStore.Controllers
                 Length = entity.Length,
                 Genre = entity.Genre,
                 Language = entity.Language,
-                IsAvailable=entity.IsAvailable,
+                IsAvailable = entity.IsAvailable,
                 AgeRestriction = entity.AgeRestriction,
                 Quantity = entity.Quantity,
 
@@ -97,7 +99,7 @@ namespace OnlineVideoRentalStore.Controllers
 
 
         [HttpPost("edit")]
-     
+
         public IActionResult EditMovie(CreateMovieVM movieVM)
         {
             var entity = InMemoryDb.Movies.Single(m => m.Id == movieVM.Id);
@@ -147,9 +149,35 @@ namespace OnlineVideoRentalStore.Controllers
         }
 
 
+        [HttpGet("details")]
+
+        public IActionResult DetailsMovie(int movieId)
+        {
+            var entity = InMemoryDb.Movies.FirstOrDefault(m => m.Id ==movieId);
+          
+                var movie = new MovieDetailsVM()
+                {
+                    Id = entity.Id,
+                    Title = entity.Title,
+                    Length = entity.Length,
+                    Genre = entity.Genre,
+                    Language = entity.Language,
+                    IsAvailable = entity.IsAvailable,
+                    AgeRestriction = entity.AgeRestriction,
+                    Quantity = entity.Quantity,
+
+                };
+           
+            return View(movie);
+        }
+
+        [HttpPut("rent")]
+        public IActionResult Rent(int id)
+        {
 
 
 
-
+            return View();  
+        }
     }
 }

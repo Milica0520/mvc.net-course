@@ -3,6 +3,12 @@
 @{
     ViewData["Title"] = "CreateUser";
 }
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
 
 <h4>CreateUserAccount</h4>
 <hr />

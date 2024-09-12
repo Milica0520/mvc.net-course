@@ -12,7 +12,6 @@ namespace OnlineVideoRentalStore.Models.Enteties
         public string Language { get; set; }
 
         public bool IsAvailable = true;
-
         public DateTime ReleaseDate { get; set; }
 
         public TimeSpan Length { get; set; }
@@ -20,5 +19,10 @@ namespace OnlineVideoRentalStore.Models.Enteties
         public int AgeRestriction { get; set; }
 
         public int Quantity { get; set; }
+
+
+       
+                
+                
     }
 }

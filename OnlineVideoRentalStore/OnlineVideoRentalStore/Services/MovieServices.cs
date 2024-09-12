@@ -7,13 +7,13 @@ namespace OnlineVideoRentalStore.Services
     public class MovieServices
     {
 
-         
+
         public List<MovieAllDto> GetAllMovies()
         {
 
             var movies = InMemoryDb.Movies;
 
-             List<MovieAllDto> allMovies = new List<MovieAllDto>();
+            List<MovieAllDto> allMovies = new List<MovieAllDto>();
 
 
             foreach (var movie in movies)
@@ -25,13 +25,19 @@ namespace OnlineVideoRentalStore.Services
                     Genre = movie.Genre,
                     Language = movie.Language,
                     ReleaseDate = movie.ReleaseDate,
+                    IsAvailable = movie.IsAvailable,
                     Length = movie.Length,
                     AgeRestriction = movie.AgeRestriction,
                 };
                 allMovies.Add(movieV);
             }
-         
+
             return allMovies;
         }
+
+       
+
+
+
     }
 }
