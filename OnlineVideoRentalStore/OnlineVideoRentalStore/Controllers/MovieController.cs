@@ -172,7 +172,7 @@ namespace OnlineVideoRentalStore.Controllers
         }
 
         [HttpPut("rent")]
-        public IActionResult Rent(int id)
+        public IActionResult Rent(Movie moveToRent)
         {
 
 
