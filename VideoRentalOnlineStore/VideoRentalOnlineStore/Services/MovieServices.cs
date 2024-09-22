@@ -1,4 +1,6 @@
-﻿using VideoRentalOnlineStore.Database;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using VideoRentalOnlineStore.Database;
+using VideoRentalOnlineStore.Models.Entities;
 using VideoRentalOnlineStore.Models.ViewModels;
 
 namespace VideoRentalOnlineStore.Services
@@ -10,6 +12,7 @@ namespace VideoRentalOnlineStore.Services
         {
             List<MovieVM> moviesToView = InMemoryDB.Movies.Select(m => new MovieVM()
             {
+                Id = m.Id,
                 Title = m.Title,
                 Genre = m.Genre,
                 IsAvailable = m.IsAvailable,
@@ -18,5 +21,9 @@ namespace VideoRentalOnlineStore.Services
 
             return moviesToView;
         }
+      
+
+
+      
     }
 }

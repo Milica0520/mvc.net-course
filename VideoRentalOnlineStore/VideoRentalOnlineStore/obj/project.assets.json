@@ -5574,11 +5574,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\VideoRentalOnlineStore\\VideoRentalOnlineStore\\VideoRentalOnlineStore.csproj",
+      "projectUniqueName": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\VideoRentalOnlineStore\\VideoRentalOnlineStore\\VideoRentalOnlineStore.csproj",
       "projectName": "VideoRentalOnlineStore",
-      "projectPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\VideoRentalOnlineStore\\VideoRentalOnlineStore\\VideoRentalOnlineStore.csproj",
+      "projectPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\VideoRentalOnlineStore\\VideoRentalOnlineStore\\VideoRentalOnlineStore.csproj",
       "packagesPath": "C:\\Users\\micad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\VideoRentalOnlineStore\\VideoRentalOnlineStore\\obj\\",
+      "outputPath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\VideoRentalOnlineStore\\VideoRentalOnlineStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\micad\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using VideoRentalOnlineStore.Database;
-
+using VideoRentalOnlineStore.Models.Entities;
 using VideoRentalOnlineStore.Models.ViewModels;
 using VideoRentalOnlineStore.Services;
 
@@ -16,12 +16,45 @@ namespace VideoRentalOnlineStore.Controllers
         {
             _movieService = new MovieServices();
         }
-        [HttpGet("allMovies")]   
+
+        [HttpGet("allMovies")]
         public IActionResult AllMovies()
         {
-           var allMovies = _movieService.GetAllMovies();
+            var allMovies = _movieService.GetAllMovies();
 
             return View(allMovies);
         }
+
+        [HttpGet("details/{id}")]
+
+        public IActionResult MovieDetails(int id)
+        {
+            var entity = InMemoryDB.Movies.Where(m => m.Id == id).FirstOrDefault();
+
+
+            if (entity == null)
+            {
+                return NotFound();  
+            }
+            var movie = new MovieDetailsVM()
+            {
+               
+                Title = entity.Title,
+                Length = entity.Length,
+                Genre = entity.Genre,
+                Language = entity.Language,
+                IsAvailable = entity.IsAvailable,
+                AgeRestriction = entity.AgeRestriction,
+                Quantity = entity.Quantity,
+
+            };
+
+           
+
+            return View(movie);
+        }
+        
+
+       
     }
 }

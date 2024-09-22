@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v60/rfqb56UWSf61Nz4rTmIcmX/rvRRtcwaL35y+VKCA5tCccpyAbk7UdnLuZ5vFy5paU8C1qTvwsVo/Uul35g==",
+  "dgSpecHash": "zEbOvOINGBWlEwYSlN8vaUpyylPoKhLZk2KLMJ4pzZJnY1M5WB2hU0zmFbmTqtqNMWPSGXp8EOZ5NNfg1jcdEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\VideoRentalOnlineStore\\VideoRentalOnlineStore\\VideoRentalOnlineStore.csproj",
+  "projectFilePath": "C:\\Users\\micad\\OneDrive\\Desktop\\mvc.net-course\\mvc.net-course\\VideoRentalOnlineStore\\VideoRentalOnlineStore\\VideoRentalOnlineStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micad\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\micad\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

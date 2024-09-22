@@ -6,7 +6,20 @@ namespace VideoRentalOnlineStore.Database
 {
     public static class InMemoryDB
     {
-        public static List<Movie> Movies = new List<Movie>
+
+        public static List<Movie> Movies = new List<Movie>();
+
+
+        static InMemoryDB()
+        {
+            LoadMoviesDb();
+        }
+
+        private static void LoadMoviesDb()
+        {
+
+
+            Movies = new List<Movie>
         {
             new Movie
             {
@@ -68,7 +81,9 @@ namespace VideoRentalOnlineStore.Database
                 AgeRestriction = 13,
                 Quantity = 2
             }
+
         };
+        }
     }
-}
+    }
 
