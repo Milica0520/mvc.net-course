@@ -8,6 +8,7 @@ namespace VideoRentalOnlineStore.Services
     public class MovieServices
     {
         public MovieServices() { }
+
         private readonly ApplicationDbContext _context;
 
         public MovieServices(ApplicationDbContext context)

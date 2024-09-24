@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\VideoRentalOnlineStore",
+    "\\VideoRentalOnlineStore\\Controllers",
     "\\VideoRentalOnlineStore\\Database",
     "\\VideoRentalOnlineStore\\Models",
     "\\VideoRentalOnlineStore\\Models\\Entities",

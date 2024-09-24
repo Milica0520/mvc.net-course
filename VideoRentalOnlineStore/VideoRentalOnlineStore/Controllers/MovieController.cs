@@ -10,14 +10,13 @@ namespace VideoRentalOnlineStore.Controllers
     [Route("movie")]
     public class MovieController : Controller
     {
-        private readonly MovieServices _movieService;
 
-        private readonly ApplicationDbContext _context;
+        private  MovieServices _movieService;
 
-        public MovieController(ApplicationDbContext context,MovieServices movieServices)
+        public MovieController(MovieServices movieServices)
         {
-            _context = context;
-            _movieService = new MovieServices();
+           
+            _movieService = movieServices;
         }
 
         [HttpGet("allMovies")]
