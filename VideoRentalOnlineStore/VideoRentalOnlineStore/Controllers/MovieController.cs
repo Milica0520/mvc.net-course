@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using VideoRentalOnlineStore.Database;
-using VideoRentalOnlineStore.Models;
 using VideoRentalOnlineStore.Models.Entities;
 using VideoRentalOnlineStore.Models.ViewModels;
 using VideoRentalOnlineStore.Services;
@@ -11,11 +10,11 @@ namespace VideoRentalOnlineStore.Controllers
     [Route("movie")]
     public class MovieController : Controller
     {
-        private MovieServices _movieService;
+        private readonly MovieServices _movieService;
 
-        private ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public MovieController(ApplicationDbContext context)
+        public MovieController(ApplicationDbContext context,MovieServices movieServices)
         {
             _context = context;
             _movieService = new MovieServices();

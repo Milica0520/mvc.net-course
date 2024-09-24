@@ -7,10 +7,19 @@ namespace VideoRentalOnlineStore.Services
 {
     public class MovieServices
     {
-       
+        public MovieServices() { }
+        private readonly ApplicationDbContext _context;
+
+        public MovieServices(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+     
+
         public List<MovieVM> GetAllMovies()
         {
-            List<MovieVM> moviesToView = InMemoryDB.Movies.Select(m => new MovieVM()
+            List<MovieVM> moviesToView = _context.Movies.Select(m => new MovieVM()
             {
                 Id = m.Id,
                 Title = m.Title,
@@ -24,7 +33,7 @@ namespace VideoRentalOnlineStore.Services
       public MovieDetailsVM GetMovieById(int id)
         {
 
-            var entity = InMemoryDB.Movies.Where(m => m.Id == id).FirstOrDefault();
+            var entity = _context.Movies.Where(m => m.Id == id).FirstOrDefault();
 
 
             if (entity == null)
