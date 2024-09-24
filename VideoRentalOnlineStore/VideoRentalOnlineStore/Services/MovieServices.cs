@@ -21,7 +21,32 @@ namespace VideoRentalOnlineStore.Services
 
             return moviesToView;
         }
-      
+      public MovieDetailsVM GetMovieById(int id)
+        {
+
+            var entity = InMemoryDB.Movies.Where(m => m.Id == id).FirstOrDefault();
+
+
+            if (entity == null)
+            {
+                throw new Exception("Movie not found");
+            }
+            var movie = new MovieDetailsVM()
+            {
+
+                Title = entity.Title,
+                Length = entity.Length,
+                Genre = entity.Genre,
+                Language = entity.Language,
+                IsAvailable = entity.IsAvailable,
+                AgeRestriction = entity.AgeRestriction,
+                Quantity = entity.Quantity,
+
+            };
+
+            return movie;
+
+        }
 
 
       
