@@ -17,16 +17,15 @@
                 <text>hour</text>
             } @Model.Length.Minutes minutes</p>
         <p class="card-text"><strong>Available:</strong> @(Model.IsAvailable ? "Yes" : "No")</p>
-        @if(Model.IsAvailable == false)
+        @if(Model.IsAvailable == false )
         {
             <p class="card-text" style="color:red"><strong>Not Available</strong> </p>
             <a href="@Url.Action("AllMovies", "Movie")" class="btn btn-primary">Go to Movie list</a>
         }
+       
         else
         {
-
-       
-        <a href="@Url.Action("Rent", "Movie", new { id = Model.Id })" class="btn btn-primary">Rent Movie</a>
+        <a href="@Url.Action("RentAMovie", "Movie", new { id = Model.Id })" class="btn btn-primary">Rent Movie</a>
         }
     </div>
 </div>

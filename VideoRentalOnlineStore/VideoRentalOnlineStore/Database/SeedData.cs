@@ -52,6 +52,7 @@ namespace VideoRentalOnlineStore.Database
                 {
                     Id = 1,
                     MovieId = 1,
+                    UserId  = 1,
                     RentedOn = DateTime.Now,
                     ReturnedOn= DateTime.Now.AddDays(7)
                 }

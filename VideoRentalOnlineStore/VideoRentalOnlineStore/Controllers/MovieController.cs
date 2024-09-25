@@ -34,5 +34,16 @@ namespace VideoRentalOnlineStore.Controllers
             var movie = _movieService.GetMovieById(id);
             return View(movie);
         }
+
+        [HttpPost("rent/{id}")]
+        public IActionResult RentAMovie(int id)
+        {
+            var rental = _movieService.RentMovie(id);
+
+            return View(rental);
+
+        }
+
+
     }
 }
